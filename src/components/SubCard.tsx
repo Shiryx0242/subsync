@@ -95,7 +95,7 @@ export const SubCard: React.FC<SubCardProps> = ({
         </View>
 
         {/* Price & Badge */}
-        <View className="items-end justify-between h-full py-1">
+        <View className="items-end py-1">
           <View className="items-end">
             <Text className="text-base font-bold text-slate-900">
               {formatCurrency(subscription.price)}
